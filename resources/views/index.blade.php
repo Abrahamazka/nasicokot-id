@@ -58,8 +58,16 @@
     </nav>
 </div>
 
-
-
+<section>
+    <div class="relative h-screen w-full overflow-hidden">
+        <div class="absolute inset-0 flex items-center justify-center">
+            <div class="text-center text-black px-4">
+                <h1 class="text-4xl text-black md:text-6xl font-bold mb-4">Selamat Datang di Nasicokot-ID</h1>
+                <p class="text-lg text-black md:text-2xl mb-8">Nikmati cita rasa nasi kotak terbaik untuk setiap acara Anda!</p>
+                <a href="./photobooth/photobooth.html" class="inline-block rounded-full bg-[#321c04] px-6 py-3 text-lg font-medium text-white hover:bg-[#321c04]/90 transition-colors duration-300">Lihat Menu</a>
+            </div>
+        </div>
+</section>
 
 
 
