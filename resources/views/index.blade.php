@@ -121,7 +121,55 @@
         </div>
     </section>
 
-    
+    <section class="relative min-h-screen overflow-hidden">
+    <div class="absolute inset-x-0 top-0 h-1/2 bg-[#efefef]"></div>
+
+    <div
+        class="absolute inset-x-0 bottom-0 h-1/2 bg-[url('{{ asset('img/kayub.png') }}')] bg-cover bg-center"
+    ></div>
+
+    <div class="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 py-24 md:px-12 lg:px-16">
+        
+        <h2 class="mb-16 text-center text-4xl font-bold text-[#2b2b2b] md:text-5xl lg:text-[60px]">
+            Kenapa Harus Kami?
+        </h2>
+
+        <div class="flex w-full flex-col items-center justify-center gap-10 lg:flex-row lg:items-end lg:gap-16">
+            
+            <div class="w-full max-w-[280px] min-h-[450px] rounded-[18px] bg-orange-500 p-7 text-white shadow-[0_18px_35px_rgba(0,0,0,0.18)] lg:translate-y-10">
+                <h3 class="text-[22px] font-bold leading-tight">Cepat & Praktis</h3>    
+                <p class="mt-3 text-[15px] leading-relaxed">
+                    Cocok untuk kamu yang butuh makan tanpa ribet, tinggal pesan dan siap dinikmati
+                </p>
+
+                <h3 class="mt-8 text-[22px] font-bold leading-tight">Ramah di Kantong</h3>
+                <p class="mt-3 text-[15px] leading-relaxed">
+                    Harga mulai 5K, tetap kenyang tanpa bikin kantong kosong
+                </p>
+            </div>
+
+            <div class="relative flex items-center justify-center lg:translate-y-[-42px]">
+                <img
+                    src="{{ asset('img/nc.png') }}"
+                    alt="Nasi Cokot"
+                    class="w-[720px] object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.22)] md:w-[720px] lg:w-[800px]"
+                />
+            </div>
+
+            <div class="w-full max-w-[280px] min-h-[450px] rounded-[18px] bg-emerald-500 p-7 text-white shadow-[0_18px_35px_rgba(0,0,0,0.18)] lg:translate-y-10">
+                <h3 class="text-[22px] font-bold leading-tight">Fresh Setiap Hari</h3>
+                <p class="mt-3 text-[15px] leading-relaxed">
+                    Dibuat langsung saat order, bukan stok lama.
+                </p>
+
+                <h3 class="mt-8 text-[22px] font-bold leading-tight">Bisa Ambil atau Delivery</h3>
+                <p class="mt-3 text-[15px] leading-relaxed">
+                    Pesan sekarang, ambil di tempat atau kirim ke lokasi kamu.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -154,7 +202,7 @@
         const navMenu = document.getElementById("navMenu");
         const navWrapper = document.getElementById("navWrapper");
 
-        let activeIndex = 0;
+        let activeIndex = 3;
         let lastScrollY = window.scrollY;
 
         function moveHighlight(index) {
