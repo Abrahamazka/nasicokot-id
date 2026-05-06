@@ -8,6 +8,6 @@ Route::get('/', function () {
 Route::get('/landing', function () {
     return view('index');
 });
-Route::get('/coba', function () {
-    return view('coba');
+Route::get('/dashboard', function () {
+    return view('dashboard');
 });
